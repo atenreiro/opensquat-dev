@@ -1,0 +1,41 @@
+{
+    "jpmorgan": {},
+    "facebook": {},
+    "paypal": {
+        "paypal4u.online": {
+            "open_ports": [],
+            "mx_record": "no",
+            "spf_record": "no"
+        },
+        "paypalhelp.online": {
+            "open_ports": [
+                "80",
+                " 443"
+            ],
+            "mx_record": "no",
+            "spf_record": "no"
+        }
+    },
+    "microsoft": {
+        "microsoft-amazon.store": {
+            "open_ports": [],
+            "mx_record": "no",
+            "spf_record": "no"
+        },
+        "microsoftapp.xyz": {
+            "open_ports": [],
+            "mx_record": "no",
+            "spf_record": "no"
+        },
+        "microsoftdownload100percentage.lol": {
+            "open_ports": [],
+            "mx_record": "no",
+            "spf_record": "no"
+        },
+        "reach-microsoft.online": {
+            "open_ports": [],
+            "mx_record": "no",
+            "spf_record": "no"
+        }
+    }
+}

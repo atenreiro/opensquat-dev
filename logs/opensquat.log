@@ -1,0 +1,28 @@
+2024-06-20 07:57:18,671 - INFO - 
+
+
+2024-06-20 07:57:18,671 - INFO - +---------- Execution Parameters ----------+
+2024-06-20 07:57:18,671 - INFO - > Total keywords: 1
+2024-06-20 07:57:18,671 - INFO - > Keywords file: keywords.txt
+2024-06-20 07:57:18,671 - INFO - > Thread concurrency: 3
+2024-06-20 07:57:18,671 - INFO - > Config file: opensquat.conf
+2024-06-20 07:57:18,671 - INFO - > Verbosity: False
+2024-06-20 07:57:18,671 - INFO - 
+
+2024-06-20 07:57:18,677 - DEBUG - Starting new HTTPS connection (1): api.domainsec.io:443
+2024-06-20 07:57:21,863 - DEBUG - https://api.domainsec.io:443 "GET /dev/free/keyword/google HTTP/1.1" 200 644
+2024-06-20 07:57:21,864 - INFO - Pattern search: google [1/1]
+2024-06-20 07:57:21,864 - INFO - Total found: 96
+2024-06-20 07:57:21,864 - INFO - 
+
+2024-06-20 07:57:21,865 - INFO - +---------- Results ----------+
+2024-06-20 07:57:21,865 - INFO - > Total results: 96
+2024-06-20 07:57:21,865 - INFO - > Running time: 3.19 seconds
+2024-06-20 07:57:21,865 - INFO - > Results file: domains.json
+
+2024-06-20 07:57:21,866 - DEBUG - Starting new HTTPS connection (1): feeds.opensquat.com:443
+2024-06-20 07:57:23,028 - DEBUG - https://feeds.opensquat.com:443 "GET /latest_version.txt HTTP/1.1" 200 5
+2024-07-10 05:11:56,318 - ERROR - An error occurred while checking MX record for domain paypal4u.online: All nameservers failed to answer the query paypal4u.online. IN MX: Server Do53:127.0.0.53@53 answered SERVFAIL; Server Do53:168.63.129.16@53 answered SERVFAIL
+2024-07-10 05:11:58,565 - ERROR - An error occurred while checking SPF record for domain paypal4u.online: The resolution lifetime expired after 2.201 seconds: Server Do53:127.0.0.53@53 answered The DNS operation timed out.; Server Do53:168.63.129.16@53 answered SERVFAIL; Server Do53:127.0.0.53@53 answered The DNS operation timed out.
+2024-07-10 05:15:14,336 - ERROR - An error occurred while checking MX record for domain paypal4u.online: All nameservers failed to answer the query paypal4u.online. IN MX: Server Do53:127.0.0.53@53 answered SERVFAIL; Server Do53:168.63.129.16@53 answered SERVFAIL
+2024-07-10 05:15:15,682 - ERROR - An error occurred while checking SPF record for domain paypal4u.online: All nameservers failed to answer the query paypal4u.online. IN TXT: Server Do53:127.0.0.53@53 answered SERVFAIL; Server Do53:168.63.129.16@53 answered SERVFAIL
